@@ -1,0 +1,19 @@
+# --- Required ---
+
+# Your Pipedrive personal API token.
+# Pipedrive: top-right profile > Company settings > Personal preferences > API.
+PIPEDRIVE_API_TOKEN=
+
+# An unguessable string that forms part of the endpoint URL, so the server
+# isn't open to anyone who finds the host. Generate one with:
+#   node -e "console.log(require('crypto').randomUUID())"
+MCP_PATH_SECRET=
+
+# --- Optional ---
+
+# Your Pipedrive company domain, i.e. the "bbd" in https://bbd.pipedrive.com .
+# Leave blank to use the generic api.pipedrive.com host (also works).
+PIPEDRIVE_COMPANY_DOMAIN=
+
+# Port the server listens on. Most hosts set this for you.
+PORT=8080
